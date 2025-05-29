@@ -56,7 +56,12 @@ A full-stack application for exploring Pokémon data, comparing Pokémon, sugges
    ```sh
    npm start
    ```
-   The app will be available at `http://localhost:3000/`.
+   The app will be available at `http://localhost:5173/`.
+
+4. Start the app automatically -
+
+### In terminal run command start.bat (for windows)
+### start.sh for (linux distro)
 
 ### Environment Variables
 - By default, the frontend expects the backend at `http://127.0.0.1:8000/api/agent/`. Adjust `API_BASE` in `mcp_frontend/src/App.jsx` if needed.
